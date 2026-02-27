@@ -4,8 +4,16 @@
   -webkit-line-clamp: 2; /* Number of lines to show */
   -webkit-box-orient: vertical;
 }
+
     .break::after {
   content: "\A";
   white-space: pre;
+
+
+.limit-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 
 }
